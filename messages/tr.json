@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "description": "Laman web peribadi dan portfolio Fatima Chan."
+  },
+  "Navbar": {
+    "home": "Laman Utama",
+    "projects": "Projek",
+    "about": "Tentang Saya",
+    "guestbook": "Buku Pelawat",
+    "particles-disabled": "Matikan Partikel",
+    "particles-enabled": "Hidupkan Partikel"
+  },
+  "Home": {
+    "title": "Halo Dunia, Saya Fatima!",
+    "subtitle": "Saya mengubah idea menjadi penyelesaian elegan dengan teknologi web moden",
+    "projects": "Lihat Projek Saya",
+    "role": "Pembangun Full Stack"
+  },
+  "Projects": {
+    "title": "Pratonton Projek",
+    "metadata": {
+      "title": "Pratonton Projek",
+      "description": "Pratonton projek-projek Fatima Chan"
+    }
+  },
+  "Project": {
+    "repo-link": {
+      "visit": "Lihat di GitHub",
+      "contribute": "Sumbang"
+    },
+    "live-link": "Buka Demo",
+    "tech-stack": "Teknologi yang Digunakan",
+    "contributors": "Penyumbang",
+    "status": {
+      "completed": "Selesai",
+      "in-progress": "Sedang Berlangsung",
+      "planned": "Dirancang"
+    }
+  },
+  "NotFoundPage": {
+    "title": "Halaman yang Anda Cari Tidak Ditemui!",
+    "link": "Kembali ke Laman Utama"
+  },
+  "ProjectNotFoundPage": {
+    "title": "Projek yang Anda Cari Tidak Ditemui!",
+    "link": "Kembali ke Laman Projek"
+  },
+  "About": {
+    "metadata": {
+      "title": "Tentang Saya",
+      "description": "Biografi ringkas dan kemahiran Fatima Chan."
+    },
+    "GuestBook": {
+      "id": "buku-pelawat",
+      "title": "Buku Pelawat",
+      "signout": "Log Keluar",
+      "googleSignin": "Log Masuk dengan Google",
+      "githubSignin": "Log Masuk dengan GitHub",
+      "email": "Jangan risau, saya tidak akan berkongsi alamat e-mel anda dengan sesiapa.",
+      "signing": "Sedang Menghantar...",
+      "sign": "Hantar",
+      "placeholder": "Tinggalkan mesej..."
+    },
+    "adventure": {
+      "title": "Pengembaraan Saya",
+      "p1": "Jika saya perlu merumuskan latar belakang saya dengan ringkas, saya mulanya belajar Kejuruteraan Industri di Universiti Abdullah Gül. Dengan minat saya terhadap pembangunan perisian, saya pertama kali mencuba pembangunan permainan. Kemudian saya fokus kepada pembangunan backend dan akhirnya menambah kemahiran frontend ke dalam senarai kebolehan saya.",
+      "p2": "Selepas mencuba pembangunan permainan menggunakan Unity, saya memutuskan untuk belajar .NET. Penyebabnya adalah apabila saya mencari kata-kata baru di dalam kamus TDK yang rasmi yang sangat kekurangan ciri penting. Saya membangunkan aplikasi MPA dengan .NET tetapi saya rasa kurang menyeronokkan. Kemudian, selepas mengetahui apa itu API dan apa yang boleh saya lakukan dengan itu, saya sedar bahawa saya tidak sepatutnya hanya terhad kepada bahagian pelayan dan mula belajar HTML, CSS, dan JS. Pada awalnya, saya agak sukar kerana tidak dapat mencari sumber yang betul. Namun, setelah diterima ke dalam Bootcamp Pembangunan Web Frontend Re:Coded, saya mula berkembang.",
+      "p3": "Di dalam bootcamp ini, saya bukan sahaja mengembangkan kemahiran frontend saya, tetapi juga mempelajari kerja berpasukan, memberi maklum balas, pengurusan masa dan banyak lagi. Yang lebih baik, saya dapat mengembangkan kemahiran pembelajaran sendiri dengan sangat baik.",
+      "p4": "Sepanjang pengembaraan ini, saya telah membuat banyak kesilapan, dan kemungkinan besar akan terus membuatnya. Tetapi saya kini tidak takut membuat kesilapan kerana saya telah belajar banyak dari kesilapan saya. Kemungkinan besar, hari saya berhenti takut membuat kesilapan adalah hari pengembaraan saya berakhir."
+    },
+    "education": {
+      "title": "Pendidikan Saya"
+    },
+    "github-contributions": {
+      "title": "Sumbangan di Github"
+    },
+    "taken-courses": {
+      "title": "Kursus yang Telah Diambil",
+      "course-page": "Halaman Kursus"
+    }
+  }
+}
