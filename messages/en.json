@@ -11,10 +11,10 @@
     "particles-enabled": "Particles Enabled"
   },
   "Home": {
-    "title": "Hello, It's Fatima!",
-    "subtitle": "Transforming ideas into elegant solutions with modern technologies",
+    "title": "Hello World, It's Furkan!",
+    "subtitle": "Transforming ideas into elegant solutions with modern web technologies",
     "projects": "See my projects",
-    "role": "Full Stack / AI Engineer"
+    "role": "Full Stack Developer"
   },
   "Projects": {
     "title": "Project Previews",
@@ -63,10 +63,10 @@
     },
     "adventure": {
       "title": "My Adventure",
-      "p1": "I entered computer science school with a passion for software development. I was deeply interested in programming, and over time, I gained solid experience in front-end and mobile apps.",
-      "p2": "After completing my first FRONTEND project, I confidently pursued more innovative projects, and my love of programming drove me to create more powerful solutions. It wasn't an easy journey, and I faced many challenges, but my passion for learning kept me going.",
-      "p3": "Throughout my multiple projects, I learned how to integrate complex functionality while ensuring a seamless user experience. More importantly, I realized the power of self-learning and how crucial it is for my growth as a developer, especially when faced with challenges in full-stack and AI development.",
-      "p4": "I've made many mistakes on this journey, and I'll make many more. What I've learned is that mistakes are nothing to be afraid of. What I should be afraid of is not trying at all, because if I don't try, I'll miss out on what I truly enjoy."
+      "p1": "To give you a brief background, I initially pursued Industrial Engineering at AGU, but my passion for software development led me to build games instead. I then decided to focus on backend development first and later on, added frontend development to my skill set.",
+      "p2": "After gaining some experience with Unity to develop games, I decided to learn .NET. The reason I shifted to web development is to build an online modern Turkish dictionary from scratch. The official dictionary lacks many features and I'm a fan of Turkish words and their roots. Initially, I developed multi-page applications but found it unsatisfying. Then, I discovered .NET APIs and became enamored with the simplicity of sending required data and using them however we want. Later on, I delved into client-side learning and studied HTML, CSS, and JavaScript. Honestly, I struggled initially since I lacked proper resources. However, I was fortunate to be accepted into the Frontend Web Development BootCamp of Recoded.",
+      "p3": "During the bootcamp, I not only improved my Frontend skills but also learned how to collaborate with teammates, provide feedback, manage time, and more. Furthermore, I honed my self-taught skills since our teachers encouraged us to self-teach.",
+      "p4": "In this adventure, I made mistakes, and I will. I learned making mistakes is not what I should be afraid of. What I should be afraid of is being afraid of making mistakes which just means that I might not like what I do."
     },
     "education": {
       "title": "My Education"

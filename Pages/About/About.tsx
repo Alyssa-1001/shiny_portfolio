@@ -22,13 +22,13 @@ export default function About({ locale }: { locale: string }) {
         thirdParagraph={t("adventure.p3")}
         fourthParagraph={t("adventure.p4")}
       />
-      {/* <Education locale={locale} title={t("education.title")} /> */}
-      {/* <TakenCourses takenCourses={takenCourses} coursePage={t('taken-courses.course-page')}
+      <Education locale={locale} title={t("education.title")} />
+      <TakenCourses takenCourses={takenCourses} coursePage={t('taken-courses.course-page')}
         title={t('taken-courses.title')}
       />
       <Suspense>
         <GithubContributionTable />
-      </Suspense> */}
+      </Suspense>
     </section>
   );
 }

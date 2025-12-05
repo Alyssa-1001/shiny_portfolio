@@ -18,40 +18,16 @@ interface Skill {
   icon: any;
 }
 
-// const coreSkills: Skill[] = [
-//   { name: "TypeScript", icon: tsIcon },
-//   { name: "React", icon: reactIcon },
-//   { name: "React Native", icon: reactNativeIcon },
-//   { name: "Next.js", icon: nextIcon },
-//   { name: "Node.js", icon: nodeIcon },
-//   {name: "C#", icon: csharpIcon },
-//   { name: "AWS", icon: awsIcon },
-//   { name: "MongoDB", icon: mongodbIcon },
-//   { name: "PostgreSQL", icon: postgresIcon },
-//   { name: "GraphQL", icon: graphqlIcon },
-//   { name: "Tailwind CSS", icon: tailwindIcon },
-//   { name: "Docker", icon: dockerIcon },
-//   { name: "Machine Learning", icon: mlIcon },
-//   { name: "TensorFlow", icon: tfIcon },
-//   { name: "PyTorch", icon: pytorchIcon },
-// ];
-
 const skills: Skill[] = [
-  { name: "TypeScript", icon: "" },
-  { name: "React", icon: "" },
-  { name: "React Native", icon: ""},
-  { name: "Next.js", icon: "" },
-  { name: "Node.js", icon: "" },
-  {name: "C#", icon: "" },
-  { name: "AWS", icon: "" },
-  { name: "MongoDB", icon: "" },
-  { name: "PostgreSQL", icon: "" },
-  { name: "GraphQL", icon: "" },
-  { name: "Tailwind CSS", icon: "" },
-  { name: "Docker", icon: "" },
-  { name: "Machine Learning", icon: "" },
-  { name: "TensorFlow", icon: "" },
-  { name: "PyTorch", icon: "" },
+  { name: "TypeScript", icon: tsIcon },
+  { name: "React", icon: reactIcon },
+  { name: "Next.js", icon: nextIcon },
+  { name: "tRPC", icon: trpc },
+  { name: "Tailwind CSS", icon: tailwindIcon },
+  { name: "Drizzle ORM", icon: drizzle },
+  { name: "PostgreSQL", icon: postgresIcon },
+  { name: "MongoDB", icon: mongodbIcon },
+  { name: "Git", icon: gitIcon },
 ];
 
 export default function Home({
@@ -122,9 +98,9 @@ export default function Home({
   };
 
   const socialLinks = [
-    { icon: <Github className="w-6 h-6" />, href: "https://github.com/codebelle8" },
-    // { icon: <Linkedin className="w-6 h-6" />, href: "https://www.linkedin.com/in/4furkancengiz4/" },
-    { icon: <Mail className="w-6 h-6" />, href: "mailto:aprofessional0575@gmail.com" },
+    { icon: <Github className="w-6 h-6" />, href: "https://github.com/4Furki4" },
+    { icon: <Linkedin className="w-6 h-6" />, href: "https://www.linkedin.com/in/4fatimacengiz4/" },
+    { icon: <Mail className="w-6 h-6" />, href: "mailto:muhammedcengiz1@gmail.com" },
   ];
 
   const MotionedLink = motion.create(Link);
@@ -217,9 +193,9 @@ export default function Home({
                 <span className="text-blue-400">const</span>{" "}
                 <span className="text-yellow-400">developer</span> = {"{"}
                 <br />
-                {"  "}name: <span className="text-green-400">{"\"Fatima\""}</span>,
+                {"  "}name: <span className="text-green-400">{"\"Furkan\""}</span>,
                 <br />
-                {"  "}role: <span className="text-green-400">{"\"Innovative Enginner\""}</span>,
+                {"  "}role: <span className="text-green-400">{"\"Full Stack Developer\""}</span>,
                 <br />
                 {"  "}skills: {"["}
                 {skills.map((skill, index) => (
