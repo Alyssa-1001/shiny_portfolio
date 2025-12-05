@@ -1,8 +1,6 @@
 # Portfolio
 
-- You can find my [tech stack](https://furki.vercel.app/), [projects](https://furki.vercel.app/projects), [story, and education information](https://furki.vercel.app/about)!
-- [Live Link](https://www.fatimachan.software)
-![image](https://github.com/4Furki4/the-portfolio/assets/84590614/230b3a38-4e5c-4d49-9049-80d9b07b3c5a)
+- You can find my [tech stack](https://fatimachan.vercel.app/), [projects](https://fatimachan.vercel.app/projects), [story, and education information](https://fatimachan.vercel.app/about)!
 
 ## Tech and Libraries
 
