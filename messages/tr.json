@@ -1,82 +1,82 @@
 {
   "metadata": {
-    "description": "Laman web peribadi dan portfolio Fatima Chan."
+    "description": "Fatima Chan'in kişisel web sitesi ve portfolyosu."
   },
   "Navbar": {
-    "home": "Laman Utama",
-    "projects": "Projek",
-    "about": "Tentang Saya",
-    "guestbook": "Buku Pelawat",
-    "particles-disabled": "Matikan Partikel",
-    "particles-enabled": "Hidupkan Partikel"
+    "home": "Ana Sayfa",
+    "projects": "Projeler",
+    "about": "Hakkımda",
+    "guestbook": "Ziyaretçi Defteri",
+    "particles-disabled": "Parçacıkları kapat",
+    "particles-enabled": "Parçacıkları aç"
   },
   "Home": {
-    "title": "Halo Dunia, Saya Fatima!",
-    "subtitle": "Saya mengubah idea menjadi penyelesaian elegan dengan teknologi web moden",
-    "projects": "Lihat Projek Saya",
-    "role": "Pembangun Full Stack"
+    "title": "Merhaba Dünya, Ben Furkan!",
+    "subtitle": "Modern web teknolojileri ile fikirleri zarif çözümlere dönüştürüyorum",
+    "projects": "Projelerimi gör",
+    "role": "Full Stack Geliştirici"
   },
   "Projects": {
-    "title": "Pratonton Projek",
+    "title": "Proje Ön İzlemeleri",
     "metadata": {
-      "title": "Pratonton Projek",
-      "description": "Pratonton projek-projek Fatima Chan"
+      "title": "Proje Ön İzlemeleri",
+      "description": "Fatima Chan'in proje ön izlemeleri"
     }
   },
   "Project": {
     "repo-link": {
-      "visit": "Lihat di GitHub",
-      "contribute": "Sumbang"
+      "visit": "GitHub'da Gör",
+      "contribute": "Katkıda Bulun"
     },
-    "live-link": "Buka Demo",
-    "tech-stack": "Teknologi yang Digunakan",
-    "contributors": "Penyumbang",
+    "live-link": "Demoyu Aç",
+    "tech-stack": "Kullanılan Teknolojiler",
+    "contributors": "Katkıda Bulunanlar",
     "status": {
-      "completed": "Selesai",
-      "in-progress": "Sedang Berlangsung",
-      "planned": "Dirancang"
+      "completed": "Tamamlandı",
+      "in-progress": "Devam Ediyor",
+      "planned": "Planlanıyor"
     }
   },
   "NotFoundPage": {
-    "title": "Halaman yang Anda Cari Tidak Ditemui!",
-    "link": "Kembali ke Laman Utama"
+    "title": "Aradığınız Sayfa Bulunamadı!",
+    "link": "Anasayfaya dön"
   },
   "ProjectNotFoundPage": {
-    "title": "Projek yang Anda Cari Tidak Ditemui!",
-    "link": "Kembali ke Laman Projek"
+    "title": "Aradığınız Proje Bulunamadı!",
+    "link": "Projeler sayfasına dön"
   },
   "About": {
     "metadata": {
-      "title": "Tentang Saya",
-      "description": "Biografi ringkas dan kemahiran Fatima Chan."
+      "title": "Hakkımda",
+      "description": "Kısa bir biyografi ve Fatima Chan'in yetenekleri."
     },
     "GuestBook": {
-      "id": "buku-pelawat",
-      "title": "Buku Pelawat",
-      "signout": "Log Keluar",
-      "googleSignin": "Log Masuk dengan Google",
-      "githubSignin": "Log Masuk dengan GitHub",
-      "email": "Jangan risau, saya tidak akan berkongsi alamat e-mel anda dengan sesiapa.",
-      "signing": "Sedang Menghantar...",
-      "sign": "Hantar",
-      "placeholder": "Tinggalkan mesej..."
+      "id": "ziyaretcidefteri",
+      "title": "Ziyaretçi Defteri",
+      "signout": "Çıkış Yap",
+      "googleSignin": "Google ile Giriş Yap",
+      "githubSignin": "GitHub ile Giriş Yap",
+      "email": "Merak etme, e-posta adresini kimseyle paylaşmayacağım.",
+      "signing": "İletiliyor...",
+      "sign": "İlet",
+      "placeholder": "Bir mesaj bırak..."
     },
     "adventure": {
-      "title": "Pengembaraan Saya",
-      "p1": "Jika saya perlu merumuskan latar belakang saya dengan ringkas, saya mulanya belajar Kejuruteraan Industri di Universiti Abdullah Gül. Dengan minat saya terhadap pembangunan perisian, saya pertama kali mencuba pembangunan permainan. Kemudian saya fokus kepada pembangunan backend dan akhirnya menambah kemahiran frontend ke dalam senarai kebolehan saya.",
-      "p2": "Selepas mencuba pembangunan permainan menggunakan Unity, saya memutuskan untuk belajar .NET. Penyebabnya adalah apabila saya mencari kata-kata baru di dalam kamus TDK yang rasmi yang sangat kekurangan ciri penting. Saya membangunkan aplikasi MPA dengan .NET tetapi saya rasa kurang menyeronokkan. Kemudian, selepas mengetahui apa itu API dan apa yang boleh saya lakukan dengan itu, saya sedar bahawa saya tidak sepatutnya hanya terhad kepada bahagian pelayan dan mula belajar HTML, CSS, dan JS. Pada awalnya, saya agak sukar kerana tidak dapat mencari sumber yang betul. Namun, setelah diterima ke dalam Bootcamp Pembangunan Web Frontend Re:Coded, saya mula berkembang.",
-      "p3": "Di dalam bootcamp ini, saya bukan sahaja mengembangkan kemahiran frontend saya, tetapi juga mempelajari kerja berpasukan, memberi maklum balas, pengurusan masa dan banyak lagi. Yang lebih baik, saya dapat mengembangkan kemahiran pembelajaran sendiri dengan sangat baik.",
-      "p4": "Sepanjang pengembaraan ini, saya telah membuat banyak kesilapan, dan kemungkinan besar akan terus membuatnya. Tetapi saya kini tidak takut membuat kesilapan kerana saya telah belajar banyak dari kesilapan saya. Kemungkinan besar, hari saya berhenti takut membuat kesilapan adalah hari pengembaraan saya berakhir."
+      "title": "Maceram",
+      "p1": "Geçmişimi veciz şekilde özetlemem gerekirse, ilk başta Abdullah Gül Üniversitesinde Endüstri Mühendisliği okuyordum. Yazılım geliştirmeye olan tutkumla ilk önce oyun geliştirmeyi denedim. Ardından backend geliştirmeye odaklandım ve sonraysa frontend kısmını da yeteneklerim arasına ekledim.",
+      "p2": "Unity kullanarak biraz oyun geliştirdikten sonra, .NET öğrenmeye karar verdim. Müsebbibi ise yeni kelimeler öğrenmek için baktığım, birçok elzem özellikten aciz resmi TDK sözlüktü. .NET ile MPA uygulamaları yaptım lakin çok keyifsiz buldum. Daha sonra API'ın ne olduğunu ve bununla neler yapabileceğimi keşfettikten sonra, sadece sunucu tarafında kalmamam gerektiğini anlayıp HTML, CSS ve JS öğrenmeye başladım. İlk başta doğru kaynaklara ulaşamadığım için biraz zorlandım. Neyseki Re:Coded'ın Frontend Web Development Bootcamp'ine kabul edildikten sonra kendimi geliştirmeye başladım.",
+      "p3": "Bu bootcampte sadece frontend alanındaki becerilerimi geliştirmekle kalmadım, aynı zamanda takım çalışması, geri bildirim verme, zaman yönetimi ve daha birçok şeyi öğrendim. Daha da iyisi, kendi kendime öğrenme becerilerimi gayet güzel bir şekilde geliştirdim.",
+      "p4": "Bu maceram boyunca birçok hata yaptım, ve kuvvetle muhtemel yapacağım da. Fakat artık hata yapmaktan korkmuyorum çünkü en çok hatalarımdan bir şeyler öğrendim. Kuvvetle muhtemel hata yapmaktan korkutuğum gün, bu maceramın sonu olacak."
     },
     "education": {
-      "title": "Pendidikan Saya"
+      "title": "Eğitimim"
     },
     "github-contributions": {
-      "title": "Sumbangan di Github"
+      "title": "Github Katkılarım"
     },
     "taken-courses": {
-      "title": "Kursus yang Telah Diambil",
-      "course-page": "Halaman Kursus"
+      "title": "Bitirdiğim Kurslar",
+      "course-page": "Kurs Sayfası"
     }
   }
 }

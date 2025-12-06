@@ -36,7 +36,7 @@ export async function generateMetadata({
         index: true,
       },
     },
-    metadataBase: new URL("https://furkan-cengiz.com"),
+    metadataBase: new URL("https://fatima-cengiz.com"),
     alternates: {
       canonical: "/",
       languages: {

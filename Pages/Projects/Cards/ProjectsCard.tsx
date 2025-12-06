@@ -19,7 +19,7 @@ export default function ProjectCards({
         isFooterBlurred
         isPressable
         as={Link}
-        // href={`/projects/${project.endpoint}`}
+        href={`/projects/${project.endpoint}`}
         className="shadow-lg backdrop-blur-xs relative z-20 h-full w-full group transition-all duration-500 hover:shadow-xl hover:shadow-red-700/5"
       >
         <CardHeader className="justify-between shadow-small p-4 bg-background/60">

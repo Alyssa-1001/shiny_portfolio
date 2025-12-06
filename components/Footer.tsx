@@ -6,12 +6,12 @@ export default function Footer() {
     <footer className="w-full h-20 p-2 z-10 flex gap-4 md:gap-8 justify-center items-center bg-background/60 backdrop-blur-xs shadow-foreground shadow-sm transition-shadow-bg duration-300">
       {/* <Link
         target="_blank"
-        href={"https://www.linkedin.com/in/4furkancengiz4/"}
+        href={"https://www.linkedin.com/in/fatima-chan-21b200242/"}
         className="hover:bg-gray-100 dark:hover:bg-black rounded-full p-4"
       >
         <Linkedin aria-label="LinkedIn Icon" />
       </Link> */}
-      {/* <Link
+      <Link
         target="_blank"
         href={"/CV.pdf"}
         className="hover:bg-gray-100 dark:hover:bg-black rounded-full p-4"
@@ -19,7 +19,7 @@ export default function Footer() {
         <span className="text-fs-300 flex items-center gap-1">
           CV <Download aria-label="Download CV Icon" size={18} />
         </span>
-      </Link> */}
+      </Link>
       <Link
         className="hover:bg-gray-100 dark:hover:bg-black rounded-full p-4"
         target="_blank"

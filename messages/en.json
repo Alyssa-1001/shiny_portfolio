@@ -12,9 +12,9 @@
   },
   "Home": {
     "title": "Hello, It's Fatima!",
-    "subtitle": "Transforming ideas into elegant solutions with modern technologies",
+    "subtitle": "Transforming ideas into elegant solutions with modern web technologies",
     "projects": "See my projects",
-    "role": "Full Stack / AI Engineer"
+    "role": "Full Stack & AI Engineer: API Specialist"
   },
   "Projects": {
     "title": "Project Previews",
@@ -62,11 +62,11 @@
       "placeholder": "Leave a message..."
     },
     "adventure": {
-      "title": "My Adventure",
-      "p1": "I entered computer science school with a passion for software development. I was deeply interested in programming, and over time, I gained solid experience in front-end and mobile apps.",
-      "p2": "After completing my first FRONTEND project, I confidently pursued more innovative projects, and my love of programming drove me to create more powerful solutions. It wasn't an easy journey, and I faced many challenges, but my passion for learning kept me going.",
-      "p3": "Throughout my multiple projects, I learned how to integrate complex functionality while ensuring a seamless user experience. More importantly, I realized the power of self-learning and how crucial it is for my growth as a developer, especially when faced with challenges in full-stack and AI development.",
-      "p4": "I've made many mistakes on this journey, and I'll make many more. What I've learned is that mistakes are nothing to be afraid of. What I should be afraid of is not trying at all, because if I don't try, I'll miss out on what I truly enjoy."
+      "title": "I am Fatima",
+      "p1": "I love sunlight.",
+      "p2": "It's more than just the light that brightens the world; it's a constant reminder of growth, hope, and the simplicity of life's natural rhythm. The way sunlight filters through the leaves, dances across the sky, and touches everything in its path, reminds me of the energy we all carry inside ourselves. ",
+      "p3": "Just like the sun, we have the potential to shine in the world, illuminating the lives of others with warmth, kindness, and creativity.",
+      "p4": "For me, sunlight symbolizes clarity in thought and purpose. It encourages me to rise above challenges and face each day with optimism, no matter how cloudy things may seem. It is my source of inspiration, bringing light to my mind and helping me find the right balance between work and personal life. Sunlight is not just something we experience physically, but also a metaphor for the energy we give to the world - a soft, yet powerful force that can bring positive change to anyone it touches."
     },
     "education": {
       "title": "My Education"

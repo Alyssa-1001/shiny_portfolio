@@ -28,7 +28,7 @@ export default function GuestBookEntry({
         <span>{message.message}</span>
       </p>
       {session?.user?.email === message.email ||
-      session?.user?.email === "muhammedcengiz1@gmail.com" ? (
+      session?.user?.email === "aprofessional0575@gmail.com" ? (
         <DeleteButton id={message.id} />
       ) : null}
     </li>

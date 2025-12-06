@@ -1,8 +1,8 @@
 import React, { Suspense } from "react";
 import { AboutMeParagraph } from "./AboutMeParagraph";
 import Education from "./Education";
-import GithubContributionTable from "./GithubContributionTable";
 import AboutImage from "./AboutImage";
+import SkillSet from "./SkillSet";
 import { useTranslations } from "next-intl";
 import TakenCourses from "./TakenCourses";
 import { getTakenCourses } from "@/db/static/takenCourses";
@@ -22,13 +22,11 @@ export default function About({ locale }: { locale: string }) {
         thirdParagraph={t("adventure.p3")}
         fourthParagraph={t("adventure.p4")}
       />
-      {/* <Education locale={locale} title={t("education.title")} /> */}
-      {/* <TakenCourses takenCourses={takenCourses} coursePage={t('taken-courses.course-page')}
+      <SkillSet />
+      <Education locale={locale} title={t("education.title")} />
+      <TakenCourses takenCourses={takenCourses} coursePage={t('taken-courses.course-page')}
         title={t('taken-courses.title')}
       />
-      <Suspense>
-        <GithubContributionTable />
-      </Suspense> */}
     </section>
   );
 }

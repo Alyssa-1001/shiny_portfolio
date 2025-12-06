@@ -140,8 +140,8 @@ export default function ProjectCard({
           ) : null}
         </Accordion>
       </CardBody>
-      <Divider />
-      <CardFooter className="flex-col">
+      {/* <Divider /> */}
+      {/* <CardFooter className="flex-col">
         {project.repoLink ? (
           <Link
             href={project.repoLink}
@@ -163,7 +163,7 @@ export default function ProjectCard({
             {liveLinkText} <ExternalLink size={16} />
           </Link>
         ) : null}
-      </CardFooter>
+      </CardFooter> */}
     </Card>
   );
 }
