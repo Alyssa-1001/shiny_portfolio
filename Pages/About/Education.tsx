@@ -50,29 +50,16 @@ export default function Education({
   const educations: Education[] = [
     {
       title: {
-        en: "Frontend Web Development BootCamp",
-        tr: "Frontend Web Development BootCamp",
-      },
-      place: "Recoded",
-      description: {
-        en: "I learned how to collaborate with teammates, provide feedback, manage time, and more. Furthermore, I honed my self-taught skills since our teachers encouraged us to self-teach.",
-        tr: "Takım çalışmasını, geri bildirim sağlamayı, zaman yönetimini ve daha fazlasını öğrendim. Ayrıca, öğretmenlerimiz bizi kendi kendimize öğrenmeye teşvik ettikleri için kendi kendime öğrendiğim becerilerimi geliştirdim.",
-      },
-      yearStart: new Date(2023, 2, 5),
-      yearEnd: new Date(2023, 8, 5),
-    },
-    {
-      title: {
-        en: "Industrial Engineering",
+        en: "Software Engineering",
         tr: "Endüstri Mühendisliği",
       },
-      place: "Abdullah Gul University",
+      place: "Universiti Tenaga Nasional",
       description: {
-        en: "Completed the prep school and left the university at the end of the first year.",
+        en: "I completed the entire course with excellent grades and gained solid knowledge of software engineering through this course.",
         tr: "Hazırlık okulunu tamamladım ve birinci sınıfın sonunda üniversiteden ayrıldım.",
       },
-      yearStart: new Date(2021, 9, 5),
-      yearEnd: new Date(2022, 6, 15),
+      yearStart: new Date(2015, 1, 1),
+      yearEnd: new Date(2018, 6.30),
     },
   ];
   return (

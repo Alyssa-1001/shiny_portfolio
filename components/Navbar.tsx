@@ -149,7 +149,7 @@ export default function Navbar({
                 >
                   {particles ? partcilesDisabled : particlesEnabled}
                 </DropdownItem>
-                <DropdownItem
+                {/* <DropdownItem
                   key="particles"
                   onPress={() => {
                     router.replace(
@@ -165,7 +165,7 @@ export default function Navbar({
                   }}
                 >
                   {locale === "en" ? "Türkçe" : "English"}
-                </DropdownItem>
+                </DropdownItem> */}
               </DropdownMenu>
             </Dropdown>
           </motion.li>

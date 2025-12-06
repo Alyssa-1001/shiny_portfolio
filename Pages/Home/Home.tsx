@@ -2,32 +2,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
-import Image from "next/image";
-import tsIcon from "@/public/svgs/ts.svg";
-import reactIcon from "@/public/svgs/react.svg";
-import nextIcon from "@/public/svgs/next.svg";
-import tailwindIcon from "@/public/svgs/tailwind.svg";
-import mongodbIcon from "@/public/svgs/mongodb.svg";
-import gitIcon from "@/public/svgs/git.svg";
-import trpc from "@/public/svgs/trpc.svg";
-import drizzle from "@/public/svgs/drizzle-orm.png";
-import postgresIcon from "@/public/svgs/postgres.svg"
-interface Skill {
-  name: string;
-  icon: any;
-}
+import { Github, Linkedin, Mail } from "lucide-react";
 
-const skills: Skill[] = [
-  { name: "TypeScript", icon: tsIcon },
-  { name: "React", icon: reactIcon },
-  { name: "Next.js", icon: nextIcon },
-  { name: "tRPC", icon: trpc },
-  { name: "Tailwind CSS", icon: tailwindIcon },
-  { name: "Drizzle ORM", icon: drizzle },
-  { name: "PostgreSQL", icon: postgresIcon },
-  { name: "MongoDB", icon: mongodbIcon },
-  { name: "Git", icon: gitIcon },
+const skills: string[] = [
+  "React - Crafting seamless UIs 🎨",
+  "Node.js - Powering scalable APIs ⚡",
+  "Next.js - Lightning-fast, dynamic pages 🚀",
+  "Tailwind CSS - Styling with ease 🌿",
+  "Python - Your go-to for AI & automation 🤖",
+  "FastAPI - Building ultra-fast APIs ⚡",
+  "PostgreSQL - Secure & reliable data 🗃️",
+  "MongoDB - Flexible, scalable databases 🌱",
+  "AI & Machine Learning - Smarter, faster solutions 🧠",
+  "Blockchain - Decentralized innovation 🔗",
+  "Git - Collaborating with precision 🔧",
 ];
 
 export default function Home({
@@ -98,9 +86,9 @@ export default function Home({
   };
 
   const socialLinks = [
-    { icon: <Github className="w-6 h-6" />, href: "https://github.com/4Furki4" },
-    { icon: <Linkedin className="w-6 h-6" />, href: "https://www.linkedin.com/in/4fatimacengiz4/" },
-    { icon: <Mail className="w-6 h-6" />, href: "mailto:muhammedcengiz1@gmail.com" },
+    { icon: <Github className="w-6 h-6" />, href: "https://github.com/codebelle8" },
+    // { icon: <Linkedin className="w-6 h-6" />, href: "https://www.linkedin.com/in/fatima-chan-21b200242/" },
+    { icon: <Mail className="w-6 h-6" />, href: "mailto:aprofessional0575@gmail.com" },
   ];
 
   const MotionedLink = motion.create(Link);
@@ -191,33 +179,24 @@ export default function Home({
             <pre className="relative backdrop-blur-sm rounded-lg p-3 sm:p-4 md:p-6 border border-primary/20 bg-primary/5 overflow-x-auto text-[10px] xs:text-xs sm:text-sm">
               <code className="font-mono whitespace-pre-wrap break-words">
                 <span className="text-blue-400">const</span>{" "}
-                <span className="text-yellow-400">developer</span> = {"{"}
+                <span className="dark:text-yellow-400 text-yellow-600">developer</span> = {"{"}
                 <br />
-                {"  "}name: <span className="text-green-400">{"\"Furkan\""}</span>,
+                {"  "}name: <span className="dark:text-green-400text-green-600">{"\"Fatima Chan\""}</span>,
                 <br />
-                {"  "}role: <span className="text-green-400">{"\"Full Stack Developer\""}</span>,
+                {"  "}role: <span className="dark:text-green-400 text-green-600">{"\"Full Stack & AI Engineer\""}</span>,
                 <br />
                 {"  "}skills: {"["}
                 {skills.map((skill, index) => (
-                  <React.Fragment key={skill.name}>
+                  <React.Fragment key={index}>
                     <br />
-                    {"    "}<span className="text-green-400">{`"${skill.name}"`}</span>
+                    {"    "}<span className="dark:text-green-400 text-green-600">{`"${skill}"`}</span>
                     {index !== skills.length - 1 && ","}
-                    {skill.icon && (
-                      <Image
-                        src={skill.icon}
-                        alt={`${skill.name} icon`}
-                        width={14}
-                        height={14}
-                        className="inline-block ml-2 -translate-y-0.5"
-                      />
-                    )}
                   </React.Fragment>
                 ))}
                 <br />
                 {"]"},
                 <br />
-                {"  "}passion: <span className="text-green-400">{"\"Building amazing web experiences\""}</span>
+                {"  "}passion: <span className="dark:text-green-400 text-green-600">{"\"Transforming ideas into intelligent, scalable systems that make a real impact\""}</span>
                 <br />
                 {"}"};
               </code>
