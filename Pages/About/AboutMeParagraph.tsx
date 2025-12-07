@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
-import { motion } from "framer-motion";
-const container = {
+import { motion, Variants } from "framer-motion";
+const container: Variants = {
   show: {
     opacity: 1,
     y: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       damping: 10,
       stiffness: 100,
       staggerChildren: 0.15,
@@ -16,7 +16,7 @@ const container = {
     y: 20,
     opacity: 0,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       damping: 10,
       stiffness: 100,
       staggerChildren: 0.15,

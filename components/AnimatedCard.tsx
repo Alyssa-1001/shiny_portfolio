@@ -1,12 +1,12 @@
 "use client"
-import { MotionAdvancedProps, MotionProps, motion } from 'framer-motion'
+import { MotionProps, motion } from 'framer-motion'
 import React from 'react'
 import { Card } from "@/components/ui/card"
 import { cn } from '@/lib/utils'
 
 type Props = {
     children: React.ReactNode,
-    props: MotionProps & MotionAdvancedProps & React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>
+    props: MotionProps & React.HTMLAttributes<HTMLDivElement>
 }
 export default function AnimatedCard({ children, props }: Props) {
     const MotionizedCard = motion(Card)
