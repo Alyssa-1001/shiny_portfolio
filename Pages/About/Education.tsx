@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card";
 
 import { format } from "date-fns";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { SchoolIcon } from "lucide-react";
 
 type Education = {
@@ -25,7 +25,7 @@ type Education = {
   yearStart: Date;
   yearEnd?: Date;
 };
-const variants = {
+const variants: Variants = {
   visible: (i: number) => ({
     opacity: 1,
     x: 0,
@@ -37,7 +37,7 @@ const variants = {
     opacity: 0,
     x: -10,
     transition: {
-      type: "spring",
+      type: "spring" as const,
       damping: 10,
       stiffness: 100,
     },

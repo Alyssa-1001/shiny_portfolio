@@ -8,7 +8,7 @@ const hidden = {
     opacity: 0,
     x: -10,
     transition: {
-        type: "spring",
+        type: "spring" as const,
         damping: 10,
         stiffness: 100,
     },
@@ -19,7 +19,7 @@ const show = {
     x: 0,
     transition: {
         delay: 0.25,
-        type: "spring",
+        type: "spring" as const,
         damping: 10,
         stiffness: 100,
     },

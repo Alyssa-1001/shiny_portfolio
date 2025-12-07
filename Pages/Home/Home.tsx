@@ -39,7 +39,8 @@ export default function Home({
         staggerChildren: 0.15,
         staggerDirection: 1,
         duration: 0.5,
-        ease: "easeOut",
+        type: "tween" as const,
+        ease: [0.16, 1, 0.3, 1] as const,
       },
     },
   };
@@ -54,7 +55,8 @@ export default function Home({
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut"
+        type: "tween" as const,
+        ease: [0.16, 1, 0.3, 1] as const
       }
     },
   };
@@ -69,7 +71,8 @@ export default function Home({
       y: 0,
       transition: {
         duration: 0.5,
-        ease: "easeOut",
+        type: "tween" as const,
+        ease: [0.16, 1, 0.3, 1] as const,
       }
     },
   };
@@ -80,7 +83,8 @@ export default function Home({
       width: "100%",
       transition: {
         duration: 1,
-        ease: "easeOut",
+        type: "tween" as const,
+        ease: [0.16, 1, 0.3, 1] as const,
       }
     },
   };
@@ -170,7 +174,7 @@ export default function Home({
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
+            transition={{ duration: 0.5, type: "tween" as const, ease: [0.16, 1, 0.3, 1] as const }}
             className="absolute inset-0 bg-gradient-to-r from-red-700/20 to-purple-900/20 blur-3xl"
           />
           <motion.div
