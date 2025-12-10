@@ -10,7 +10,7 @@ const skills: string[] = [
   "Next.js - Lightning-fast, dynamic pages 🚀",
   "Tailwind CSS - Styling with ease 🌿",
   "Python - Your go-to for AI & automation 🤖",
-  "PHP - Powerful server-side scripting 💻"
+  "PHP - Powerful server-side scripting 💻",
   "FastAPI - Building ultra-fast APIs ⚡",
   "PostgreSQL - Secure & reliable data 🗃️",
   "MongoDB - Flexible, scalable databases 🌱",
@@ -210,5 +210,6 @@ export default function Home({
     </motion.main>
   );
 }
+
 
 
