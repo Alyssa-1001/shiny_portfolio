@@ -21,13 +21,6 @@ export default function Footer() {
         </span>
       </Link>
       <Link
-        className="hover:bg-gray-100 dark:hover:bg-black rounded-full p-4"
-        target="_blank"
-        href={"https://github.com/codebelle8"}
-      >
-        <Github aria-label="GitHub Icon" />
-      </Link>
-      <Link
         href="mailto:aprofessional0575@gmail.com"
         className="hover:bg-gray-100 dark:hover:bg-black rounded-full p-4"
       >
@@ -36,3 +29,4 @@ export default function Footer() {
     </footer>
   );
 }
+
