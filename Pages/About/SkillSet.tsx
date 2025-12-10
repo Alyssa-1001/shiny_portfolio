@@ -24,7 +24,7 @@ const categories: SkillCategory[] = [
         gradient: "from-blue-600/10 via-cyan-500/10 to-indigo-600/10",
         items: [
             { label: "Front-end", values: "React.js, Vue.js, Angular, Tailwind CSS" },
-            { label: "Back-end", values: "Node.js, Python, C#" },
+            { label: "Back-end", values: "Node.js, Python, Laravel, C#" },
             { label: "Databases", values: "PostgreSQL, MongoDB" },
             { label: "Version Control & DevOps", values: "Git, Docker, Kubernetes" },
             { label: "Tools & Frameworks", values: "Express.js, Django, Next.js" }
