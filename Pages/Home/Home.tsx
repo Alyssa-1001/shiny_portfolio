@@ -91,8 +91,6 @@ export default function Home({
   };
 
   const socialLinks = [
-    { icon: <Github className="w-6 h-6" />, href: "https://github.com/codebelle8" },
-    // { icon: <Linkedin className="w-6 h-6" />, href: "https://www.linkedin.com/in/fatima-chan-21b200242/" },
     { icon: <Mail className="w-6 h-6" />, href: "mailto:aprofessional0575@gmail.com" },
   ];
 
@@ -212,4 +210,5 @@ export default function Home({
     </motion.main>
   );
 }
+
 
